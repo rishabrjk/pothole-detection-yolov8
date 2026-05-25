@@ -106,10 +106,13 @@ Training curves showed decreasing loss across 100 epochs, while precision, recal
 
 ## Sample Outputs
 
-The model draws polygon contours around detected potholes and labels each detection with class name and confidence score.
+## Sample Outputs
 
-Add output screenshots or prediction examples inside the `results/` folder.
+### Detection Output
+![Detection Output](results/detection.png)
 
+### Segmentation Output
+![Segmentation Output](results/segmentation.png)
 Example output:
 
 ```text
