@@ -124,35 +124,18 @@ This project has direct applications in road maintenance, public safety, and sma
 
 ## 📁 Project Structure
 
-```
-pothole-detection-yolov8/
-│
-├── data/
-│   ├── images/               # Raw road images
-│   ├── labels/               # Roboflow-exported segmentation labels
-│   └── data.yaml             # YOLOv8 dataset config
-│
-├── models/
-│   └── best.pt               # Best trained model weights
-│
-├── notebooks/
-│   ├── 01_Data_Preparation.ipynb     # Roboflow download + preprocessing
-│   ├── 02_Training.ipynb             # YOLOv8 training pipeline
-│   └── 03_Evaluation.ipynb           # Metrics + PR curve analysis
-│
-├── src/
-│   ├── train.py              # Training script
-│   └── predict_video.py      # Real-time video inference
-│
-├── results/
-│   ├── sample_output.jpg     # Detection output example
-│   └── pr_curve.png          # Precision-Recall training curves
-│
-├── requirements.txt
-└── README.md
-```
+## Project Structure
 
----
+```text
+pothole-detection-yolov8/
+├── results/
+├── src/
+│   └── inference.py
+├── notebooks/
+│   └── README.md
+├── requirements.txt
+├── LICENSE
+└── README.md
 
 ## 🚀 How to Run
 
